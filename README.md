@@ -17,18 +17,20 @@ If you download this sample from the Express API quickstart page, a `.env` file 
 ```bash
 npm install
 npm start
-```
+```git
 
-The API will be served at `http://localhost:3010`.
+The API will be served at `http://localhost:3000`.
 
 ## Endpoints
 
 The sample includes these endpoints:
 
 **GET** /api/public
+
 * An unprotected endpoint which returns a message on success. Does not require a valid JWT access token.
 
 **GET** /api/private
+
 * A protected endpoint which returns a message on success. Requires a valid JWT access token with a `scope` of `read:messages`.
 
 ## Running the Sample With Docker
@@ -52,8 +54,8 @@ Auth0 helps you to:
 
 ## Create a free Auth0 account
 
-1. Go to [Auth0](https://auth0.com/signup) and click Sign Up.
-2. Use Google, GitHub or Microsoft Account to login.
+1.  Go to [Auth0](https://auth0.com/signup) and click Sign Up.
+2.  Use Google, GitHub or Microsoft Account to login.
 
 ## Issue Reporting
 
